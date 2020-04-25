@@ -30,3 +30,50 @@ img {
   color: #3677fd;
   line-height: 3.5rem;
 }
+
+.portfolio-section__inner {
+  padding-top: 93px;
+  padding-bottom: 193px;
+}
+
+.portfolio-section__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 104px;
+}
+
+.portfolio-section__img-wrap {
+  width: 359px;
+  height: 269px;
+  border-radius: 10px;
+  border: 1px solid #f4f4f4;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-section__img-wrap:nth-child(4),
+.portfolio-section__img-wrap:nth-child(5),
+.portfolio-section__img-wrap:nth-child(6) {
+  margin-top: 50px;
+}
+
+.clients-section {
+  background-color: #f1f8ff;
+}
+
+.client-section__inner {
+  padding-top: 93px;
+  padding-bottom: 101px;
+}
+
+.client-section__img-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 87px;
+}
