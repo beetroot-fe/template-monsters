@@ -17,3 +17,10 @@ html {
 img {
   max-width: 100%;
 }
+
+.title {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #3677fd;
+  line-height: 3.5rem;
+}
