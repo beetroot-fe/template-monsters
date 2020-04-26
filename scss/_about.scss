@@ -1,0 +1,18 @@
+.about-section {
+
+&__inner {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+//Add to _common.scss
+.black-text {
+  color: #5a5a5a;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 2.5rem;
+  }
+}
+//

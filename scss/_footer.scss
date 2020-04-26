@@ -1,0 +1,21 @@
+.footer {
+  background: linear-gradient(45deg, #3680fe 10%, #3c90fe 30%, #4099ff 50%, #469dff 60%, #3695ff 80%);
+
+  &__inner {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 40px;
+  }
+  &__text {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+
+  &__text--bold {
+    font-weight: bold;
+  }
+}
