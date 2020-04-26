@@ -1,0 +1,29 @@
+.portfolio-section__inner{
+    padding-top: 93px;
+    padding-bottom: 193px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 54px;
+}
+.gallery__img-wrap{
+    margin-top: 50px;
+    flex-basis: 359px ;
+    flex-shrink: 1;
+    padding-top: 29px;
+    padding-bottom: 29px;
+
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+

@@ -31,6 +31,50 @@ img {
   line-height: 3.5rem;
 }
 
+.portfolio-section__inner {
+  padding-top: 93px;
+  padding-bottom: 193px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 54px;
+}
+
+.gallery__img-wrap {
+  margin-top: 50px;
+  flex-basis: 359px;
+  flex-shrink: 1;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  border-radius: 10px;
+  border: 1px solid #f4f4f4;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-section {
+  background-color: #f1f8ff;
+}
+
+.clients-section__inner {
+  padding-top: 93px;
+  padding-bottom: 101px;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 87px;
+}
+
 .home-section {
   background: linear-gradient(45deg, #3680fe 10%, #3c90fe 30%, #4099ff 50%, #469dff 60%, #3695ff 80%);
   height: 100vh;
@@ -54,6 +98,7 @@ img {
   text-transform: uppercase;
   padding-top: 100px;
 }
+
 .header__img {
   width: 141px;
   height: 141px;
@@ -61,6 +106,7 @@ img {
   background-color: #fff;
   border-radius: 50%;
 }
+
 .header__title {
   font-size: 3rem;
   font-weight: 900;
@@ -68,6 +114,7 @@ img {
   letter-spacing: 1.25px;
   padding-top: 50px;
 }
+
 .header__desc {
   font-size: 1.2rem;
   font-weight: 300;
@@ -85,6 +132,7 @@ img {
   cursor: pointer;
   text-align: center;
 }
+
 .button__btn {
   border: none;
   color: #3677fd;
@@ -109,6 +157,7 @@ img {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .about-section .black-text {
   color: #5a5a5a;
   font-size: 1.4rem;
@@ -119,6 +168,7 @@ img {
 .footer {
   background: linear-gradient(45deg, #3680fe 10%, #3c90fe 30%, #4099ff 50%, #469dff 60%, #3695ff 80%);
 }
+
 .footer__inner {
   width: 60%;
   margin: auto;
@@ -128,10 +178,12 @@ img {
   color: #fff;
   padding: 40px;
 }
+
 .footer__text {
   font-size: 2.5rem;
   font-weight: 300;
 }
+
 .footer__text--bold {
   font-weight: bold;
 }
