@@ -27,8 +27,6 @@
     margin: auto;
     background-color: #fff;
     border-radius: 50%;
-    // border: 5px solid rgb(255,255,255,0.5);
-    // box-shadow: 5px 5px 5px #448efe;
   }
 
   &__title {
@@ -47,28 +45,6 @@
    padding: 20px;
   }
 }
-
-//Add to _common.scss
-.button {
-  width: 150px;
-  height: 44px;
-  margin: auto;
-  border-radius: 28px;
-  background-color: #ffffff;
-  cursor: pointer; 
-  text-align: center;
-
-  &__btn {
-    border: none;
-    color: $base-color;
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-    padding-top: 15px; 
-  }
-  }
-  //
 
 .button {
 

@@ -1,14 +1,50 @@
+//Main container for all sections
 .container {
- max-width: 1170px;
- margin: 0 auto;
- text-align: center;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
 }
 
+//Blue title
 .title {
   font-size: 3rem;
   font-weight: 300;
   color: $base-color;
   line-height: 3.5rem;
+  letter-spacing: 2px;
+  padding: 20px;
   }
+
+//Black text in about and services sections
+.black-text {
+  color: #5a5a5a;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 2.8rem;
+  }
+
+//Button in home section and footer
+.button {
+  width: 150px;
+  height: 44px;
+  margin: auto;
+  border-radius: 28px;
+  background-color: #ffffff;
+  cursor: pointer; 
+  text-align: center;
+
+  &__btn {
+    border: none;
+    color: $base-color;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding-top: 15px; 
+   }
+  }
+ 
+
+  
   
 
