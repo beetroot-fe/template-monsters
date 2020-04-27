@@ -10,3 +10,12 @@
   margin: auto;
  }
 }
+
+@media screen and (max-width: 400px) {
+  .about-section {
+
+    &__inner {
+      width: 90%;
+    }
+  }
+}
