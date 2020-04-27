@@ -34,14 +34,21 @@
   text-align: center;
 
   &__btn {
+    height: 100%;
     border: none;
     color: $base-color;
+    background-color: #fff;
     font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.4px;
-    padding-top: 15px; 
    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .button {
+      width: 120px;
+    }
   }
  
 
