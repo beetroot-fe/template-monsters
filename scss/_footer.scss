@@ -19,3 +19,47 @@
     font-weight: bold;
   }
 }
+
+@media screen and (max-width: 1120px) {
+  .footer {
+
+    &__text--bold {
+      display: block;
+    }
+  } 
+}
+
+
+@media screen and (max-width: 900px) {
+  .footer {
+  
+    &__inner {
+      width: 100%;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    &__text {
+      padding: 20px;
+    }
+
+    &__text--bold {
+      display: inline;
+    }
+  } 
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    text-align: center;
+
+    &__text {
+      padding: 10px;
+    }
+
+    &__text--bold {
+      display: block;
+      padding: 10px;
+    }
+  }
+}
