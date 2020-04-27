@@ -19,4 +19,18 @@ img {
   max-width: 100%;
 }
 
+@media screen and (max-width: 900px) {
+
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  html {
+    font-size: 50%;
+  }
+}
+
 
